@@ -1,0 +1,343 @@
+/*
+	Theme Name: legalpower
+	Theme URI: http://templatation.com
+	Author: Templatation
+	Author URI: http://themeforest.net/user/templatation
+	Description: A powerful theme for Lawyers, and Law Agencies.
+	Version: 1.81
+	Text Domain: legalpower
+	License: Themeforest Split License.
+	License URI: http://themeforest.net/licenses
+	Tags: white, custom-background, threaded-comments, translation-ready, custom-menu
+*/
+
+
+/*
+ *
+ * This is default style.css file that WordPress loads.
+ * Its not recommended to put anything here, as this file will get overwritten when you update theme.
+ * The styles for themes can be found in /assets/css/styles.css
+ * If you want to just change few styles, then you can put your styles in wp-admin/theme-options/display-options.
+ * If you want to do heavy modifications, please use a child theme. A blank child theme is supplied with your Themeforest download.
+ *
+ */
+
+ .published-date h3 {
+ 	margin-top: 5px !important;
+ 	margin-bottom: 0 !important;
+ }
+
+ .pager-container {
+ 	text-align: center;
+ }
+ .pager-container a {
+ 	background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 0;
+    color: #8e8d8d;
+    display: inline-block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    height: 46px;
+    line-height: 44px;
+    margin: 0 5px;
+    padding: 0 16px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+ }
+ a.active_page, .pager-container a:hover {
+ 	background: #b89b5e;
+    color: #ffffff;
+    border-color: #e2e2e2;
+ }
+
+/*Custom CSS*/
+.consultation_section {
+font-size:16px;
+color:#ffffff;
+padding-top:40px;
+}
+.consultation_section a{
+color:#bf9e58;
+}
+.consultation_section_btn button{
+padding: 14px 40px !important;
+    text-transform: none !important;
+border: 1px solid #bf9e58 !important;
+}
+#footer-widget-area h4.title{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.widget-lpinfo p{
+    padding-top: 3px;
+color:#ffffff;
+}
+#footer-widget-area h4.title{
+    font-style: normal;
+    color: #bf9e58;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.widget-get-intouch ul li, #footer-widget-area .widget ul li a {
+    color: #ffffff !important;
+}
+#footer-widget-area .widget ul li a {
+    color: #ffffff !important;
+    margin-bottom: 5px;
+}
+#footer-widget-area .widget ul li a::before{
+display: none !important;
+}
+#footer-widget-area .widget-social-links{
+display:none;
+}
+.widget-get-intouch ul li.envelop:before{
+content: "\f0e0" !important;
+}
+.widget-get-intouch ul li:before{
+    font-size: 20px !important;
+}
+.widget-get-intouch ul li{
+    padding-left: 40px;
+}
+.widget-get-intouch ul li.location:before{
+    font-size: 26px !important;
+}
+.quick-links ul li{
+    margin-bottom: 0px;
+}
+.widget-get-intouch ul li.location:before{
+    font-size: 40px !important;
+    margin-top: -30px;
+}
+.widget-get-intouch ul li.phone:before{
+    font-size: 30px !important;
+    margin-top: -15px;
+}
+.widget-get-intouch ul li.envelop:before{
+    font-size: 24px !important;
+    margin-top: -12px;
+}
+.widget-get-intouch ul li.location, .widget-get-intouch ul li.phone, .widget-get-intouch ul li.envelop, .widget-get-intouch ul li.website{
+    padding-left: 50px;
+}
+.area_prac_section_1 .choose-single-item{
+height:250px;
+}
+.area_prac_section_2 .choose-single-item{
+height:270px;
+}
+.contact_section_image img {
+height:60px !important;
+width: auto !important;
+}
+.section-title h1 span, .section-title h2 span, .section-title h3 span, .section-title h4 span, .section-title h5 span, .section-title h6 span{
+    color: #B89B5E !important;
+}
+.section-title h1::after, .section-title h2::after{
+    background: none !important;
+}
+.single-featured-text h5:after{
+    width: 90px !important;
+}
+.footer_cls_mail_at .wpb_wrapper p, .consultation_section{
+    font-family: "Open Sans";
+}
+#footer-widget-area h4.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+.home_page_practice_sec .wpb_column .wpb_wrapper .single-featured-text h5{
+    line-height:18px;
+}
+.area_prac_top_head .wpb_wrapper .section-title{
+    margin-bottom:30px !important;
+}
+.vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab>a {
+    margin: 0 0 0 8px !important;
+}
+span.vc_tta-title-text::after{
+    margin-left: 8px !important;
+}
+span.vc_tta-title-text {
+    padding-left: 8px !important;
+}
+/*.vc_tta-panels-container{
+    display:none !important;
+}*/
+.wpb-js-composer .vc_tta-container{
+    margin-bottom: 0px !important;
+}
+.home_page_practice_sec .single-featured{
+    border-bottom: none !important;
+}
+.home_page_practice_sec {
+    border-bottom: 1px solid #c1b7b7;
+}
+.home_page_practice_sec .single-featured p a, .home_page_practice_sec_1 .single-featured p a{
+    background-color: #B89B5E;
+    padding: 7px 20px;
+    color: #fff;
+}
+.single-featured .single-featured-icon i:before{
+    top: 0 !important;
+}
+.area_prac_section_1 .choose-single-item .featured-icon, .area_prac_section_2 .choose-single-item .featured-icon {
+    margin-bottom: 15px;
+}
+.mainmenu .nav-holder > ul > li > a{
+    line-height: 70px !important;
+}
+header .logo {
+    line-height: 70px !important;
+}
+.header-search-toggler .icon{
+    color: #B89B5E !important;
+}
+.tparrows { /*Slider Navigation*/
+    display: none !important;
+}
+.mainmenu .nav-expander > ul > li > button{
+    width: 30px;
+}
+.breadcrumb-text h1{
+    margin: 0 0 52px;
+    font-family: "Raleway",sans-serif;
+}
+#contact-google-map {
+    height: 500px !important;
+}
+.color_black ul li{
+    color: #000000;
+}
+.contact_experience_footer h4{
+    color:#bf9e58 !important;
+}
+.vc_tta-tabs span.vc_tta-title-text{
+    font-style: italic;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab.vc_active>a{
+    font-weight: bold;
+}
+.head_sub_head p{
+    color: #222;
+}
+.state_worker_cls .vc_column_container, .longshore_section_cls .vc_column_container, .social_security_cls .vc_column_container, .personal_injury_cls .vc_column_container, .municipal_court_cls .vc_column_container, .drunk_driving_cls .vc_column_container{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.vc_tta-panels{
+    border-color: transparent !important;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-body{
+    padding-bottom: 0 !important;
+}
+.drunk_driving_section .section-title h4::after{
+display: none !important;
+}
+.drunk_driving_section .section-title h4 span{
+    text-transform: initial !important;
+}
+.drunk_driving_section .drunck_sec_a{
+border-bottom: 2px solid #ffffff;
+}
+.vc_tta-tabs span.vc_tta-title-text {
+    font-style: normal !important;
+}
+span.vc_tta-title-text::after{
+    content: "|" !important;
+}
+@media screen and (max-width: 920px) and (min-width: 767px) {
+.footer_cls_mail_at .wpb_wrapper p{
+    font-size:15px !important;
+}
+.drunk_sec_4 .vc_column-inner{
+    padding-bottom: 33px !important;
+}
+.drunk_driv_off_sec_1 .vc_column-inner, .drunk_driv_off_sec_2 .vc_column-inner{
+height:420px;
+}
+.trust-box-text{
+    margin-right:0 !important;
+}
+.area_prac_section_1 .choose-single-item {
+    height: 335px;
+}
+.area_prac_section_2 .choose-single-item {
+    height: 380px;
+}
+header.sticky-fixed .logo img {
+    width: 40% !important;
+    transition: all .3s ease;
+}
+.home_page_practice_sec .single-featured p a, .home_page_practice_sec_1 .single-featured p a{
+    padding: 7px 14px;
+}
+.mainmenu{
+    text-align: center;
+}
+}
+@media screen and (max-width: 2000px) and (min-width: 920px) {
+.consultation_section, .consultation_section_btn {
+    margin-left: -20px !important;
+}
+.contact_experience_footer .vc_col-sm-8{
+    margin-left: 0px !important;
+}
+}
+@media screen and (max-width: 1025px) and (min-width: 920px) {
+.footer_cls_mail_at .wpb_wrapper p{
+    font-size:21px !important;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+.consultation_section, .consultation_section_btn{
+ padding-left:15px;
+ padding-right:15px;
+ margin-bottom: 40px !important;
+}
+.contact_experience_footer {
+ padding-left:15px;
+ padding-right:15px;
+}
+.contact_experience_footer h4{
+line-height: 23px !important;
+}
+.footer_cls_mail_at .wpb_wrapper p{
+    font-size: 18px !important;
+    line-height: 30px !important;
+}
+.area_prac_section_1 .choose-single-item {
+    height: 450px !important;
+}
+.area_prac_section_1, .drunk_driv_off_sec_2 {
+margin-bottom:20px;
+}
+.area_prac_section_1 .vc_column-inner, .area_prac_section_2 .vc_column-inner{
+margin-left: 0 !important;
+}
+.area_prac_section_2 .choose-single-item {
+    height: 520px !important;
+}
+.mainmenu .nav-expander .nav-collapser{
+    padding: 5px 5px !important;
+}
+.mainmenu .nav-expander ul li i.icon-Search {
+    bottom: 0 !important;
+}
+.vc_custom_1457267852943{
+    padding-bottom: 0px !important;
+}
+.vc_custom_1492522780155{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.municipal_img .vc_column-inner{
+margin-left: 0 !important;
+}
+}
